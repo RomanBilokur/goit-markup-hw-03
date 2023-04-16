@@ -74,6 +74,18 @@ body {
   color: var(--logo-btm-color);
 }
 
+/*  color-logo*/
+
+.colorr {
+  color: var(--frequent-color);
+}
+
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+
 .menu-link {
   display: inline-block;
   padding-top: 24px;
@@ -91,10 +103,14 @@ body {
 }
 
 .addressa {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  display: flex;
+  align-items: center;
 }
 
 .contact-mailto-nunber,
@@ -107,19 +123,6 @@ body {
   color: var(--btn-color);
 }
 
-.addressa {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
-.menu-list {
-  display: flex;
-  gap: 40px;
-}
 
 .contact {
   display: flex;
@@ -129,27 +132,27 @@ body {
   padding-bottom: 24px;
 }
 
-/*  color-logo*/
 
-.colorr {
-  color: var(--frequent-color);
-}
 
 .contacts-i {
   font-style: normal;
+  margin-left: auto;
 }
+
 
 .page-header {
-  background-color: var(--fond-color);
-}
-
-.page-header .container {
   display: flex;
   align-items: center;
+  background-color: var(--fond-color);
 }
 
 .page-nav {
   display: flex;
+}
+
+.page-header .page-header-container {
+  display: flex;
+  align-items: center;
 }
 
 
@@ -289,7 +292,7 @@ margin-bottom: 100px;
 }
 
 .flex-container-3 > .flex-items-3 {
-flex-basis: ;
+
 }
 
 
