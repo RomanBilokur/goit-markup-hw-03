@@ -156,26 +156,51 @@ body {
 }
 
 
-/* Hero image*/
+/* Section 1*/
 
-.section-hero-container {
+.section-hero {
   background: var(--frequent-color);
-  padding-top:  188px;
-  padding-bottom: 292px;
-  padding-left: 331px;
-  padding-right: 331px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: auto;
-  margin-left: auto;
-  width: 1168px;
+  padding:  188px 0;
 } 
 
-.section-hero0 {
-  background: var(--frequent-color);
-} 
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--fond-color);
+  text-align: center;
+  max-width: 496px;
+  }
 
-/* Section 1 */
+  .modal-btn {
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--fond-color);
+    background: var(--logo-btm-color);
+    cursor: pointer;
+    
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 16px 32px;
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    border-radius: 4px;
+    }
+
+    .modal-btn:hover,
+.modal-btn:focus {
+background: var(--btn-color);
+color: var(--fond-color);
+}
+
+
+/* Section 2 */
 .flex-container-1 {
   padding: 0;
   margin: 0;
@@ -202,38 +227,11 @@ body {
   }
 
 
-.main-title {
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-color: var(--fond-color);
-text-align: center;
-}
 
-.modal-btn {
-font-family: 'Roboto', sans-serif;  
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--fond-color);
-background: var(--logo-btm-color);
-cursor: pointer;
-margin-top: 48px;
-margin-left: auto;
-margin-right: auto;
-display: flex;
-padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 32px;
-padding-right: 32px;
-}
 
-.modal-btn:hover,
-.modal-btn:focus {
-background: var(--btn-color);
-color: var(--fond-color);
-}
+
+
+
 
 /* container-features */
 
@@ -251,7 +249,7 @@ color: var(--fond-color);
   color: var(--frequent-color);
 }
 
-/* Section 2  */
+/* Section 3  */
 
 .flex-container-2 {
 display: flex;
@@ -270,7 +268,7 @@ margin-bottom: 100px;
 
 
 
-/* Section 3*/
+/* Section 4*/
 
 .flex-h-3 {
   margin-left: auto;
