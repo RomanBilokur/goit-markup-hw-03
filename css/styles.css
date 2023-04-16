@@ -21,6 +21,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
   
 }
 
@@ -55,6 +57,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 /* Header */
@@ -162,8 +165,9 @@ body {
   flex-wrap: wrap;
   margin-right: auto;
   margin-left: auto;
-  width: 1158px;
+  width: 1168px;
 } 
+
 .section-hero0 {
   background: var(--frequent-color);
 } 
@@ -231,7 +235,8 @@ color: var(--fond-color);
 /* container-features */
 
 .container-features {
-  width: 1158px;
+  display: flex;
+  height: 312px;
 }
 
 .our-work-header {
@@ -251,6 +256,7 @@ flex-wrap: wrap;
 gap: 24px;
 margin-top: 72px;
 margin-bottom: 100px;
+
 }
 
 .flex-h-2 {
