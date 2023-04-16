@@ -147,6 +147,7 @@ body {
 
 .page-nav {
   display: flex;
+  align-items: center;
 }
 
 .page-header .page-header-container {
