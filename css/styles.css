@@ -207,7 +207,7 @@ color: var(--fond-color);
   padding: 120px 0;
 }
 
-.flex-container-1 {
+.flex-container-s {
   padding: 111px;
   list-style: none;
   display: flex;
@@ -215,15 +215,15 @@ color: var(--fond-color);
   gap: 24px;
 }
 
-.flex-container-1 {
+.flex-container-s {
  flex-basis: calc((100% - 72px) / 4);
 }
 
-.flex-items-1 {
+.flex-items-s {
   width: 264px;
 }
 
-.flex-h-1 {
+.flex-h-s {
   display: flex;
   margin-bottom: 8px;
   margin-left: 0;
@@ -236,6 +236,10 @@ color: var(--fond-color);
 }
 
 /* Section 3  */
+
+.our-work {
+  padding-bottom: 120px;
+}
 
 .our-work-header {
   font-size: 36px;
