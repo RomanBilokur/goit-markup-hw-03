@@ -267,11 +267,11 @@ margin-bottom: 100px;
 
 /* Section 4*/
 
-.flex-h-3 {
+.flex-h-t {
   margin-bottom: 72px;
 }
 
-.flex-container-3 {
+.flex-container-t {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -279,7 +279,7 @@ margin-bottom: 100px;
   margin-bottom: 120px;
 }
 
-.flex-items-3 {
+.flex-items-t {
  border-radius: 0 0 4px 4px;
  
 }
