@@ -230,12 +230,12 @@ color: var(--fond-color);
   }
 
 
-/* container-features */
-
 .container-features {
   display: flex;
   height: 312px;
 }
+
+/* Section 3  */
 
 .our-work-header {
   font-size: 36px;
@@ -246,9 +246,11 @@ color: var(--fond-color);
   color: var(--frequent-color);
 }
 
-/* Section 3  */
+.our-work-container {
+  padding-bottom: 120px;
+}
 
-.flex-container-2 {
+.flex-container-w {
 display: flex;
 flex-wrap: wrap;
 gap: 24px;
@@ -257,10 +259,8 @@ margin-bottom: 100px;
 
 }
 
-.flex-h-2 {
-  margin-left: auto;
-  margin-right: auto;
-
+.flex-h-w {
+ margin-bottom: 72px;
 }
 
 
@@ -284,7 +284,7 @@ margin-bottom: 100px;
  
 }
 
-.post-s-4 {
+.post-s-t {
   padding: 32px 16px;
 
 }
