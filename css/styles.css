@@ -361,6 +361,8 @@ margin-bottom: 100px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-btm-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 
@@ -370,6 +372,8 @@ margin-bottom: 100px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--fond-btn-color);
+  padding-top: 16px;
+  max-width: 264px;
 }
 
 /* colorr-footer-logo */
